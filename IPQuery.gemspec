@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = "IPQuery"
-  s.version     = "rolling"
+  s.version     = "0.0.0"
   s.summary     = "IPQuery"
   s.description = "The Ruby library for IPQuery"
   s.authors     = ["GoldenVadim"]
