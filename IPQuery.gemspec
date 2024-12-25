@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
-  s.name        = "hola"
-  s.version     = "0.0.0"
-  s.summary     = "Hola!"
-  s.description = "A simple hello world gem"
-  s.authors     = ["Nick Quaranto"]
-  s.email       = "nick@quaran.to"
-  s.files       = ["lib/hola.rb"]
+  s.name        = "IPQuery"
+  s.version     = "rolling"
+  s.summary     = "IPQuery"
+  s.description = "The Ruby library for IPQuery"
+  s.authors     = ["GoldenVadim"]
+  s.email       = "contact@ipquery.io"
+  s.files       = ["ipquery.rb"]
   s.homepage    =
-    "https://rubygems.org/gems/hola"
+    "https://rubygems.org/gems/ipquery-ruby"
   s.license       = "MIT"
 end
