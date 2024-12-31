@@ -29,7 +29,11 @@ class IPQuery
     Net::HTTP.get(uri)
     response = Net::HTTP.get_response(uri)
 
-    IPQueryResult.new(JSON.parse(response.body)) if response.is_a?(Net::HTTPSuccess)
+    if response.is_a?(Net::HTTPSuccess)
+      IPQueryResult.new(JSON.parse(response.body))
+    else
+      false
+    end
   rescue StandardError => e
     puts "Error: #{e.message}"
     nil
